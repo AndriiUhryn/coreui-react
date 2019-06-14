@@ -1,21 +1,13 @@
 {
-  "name": "@coreui/react",
-  "version": "2.5.1",
-  "description": "CoreUI React Bootstrap 4 components",
+  "name": "custom/coreui/react-ssr",
+  "version": "0.0.1",
+  "description": "CoreUI React Bootstrap 4 components with ssr support",
   "license": "MIT",
   "author": {
-    "name": "Łukasz Holeczek",
-    "url": "http://holeczek.pl",
-    "github": "https://github.com/mrholek",
-    "twitter": "https://twitter.com/lukaszholeczek"
+    "name": "Andrii Uhryn",
+    "github": "https://github.com/AndriiUhryn"
   },
-  "contributors": [
-    {
-      "name": "Andrzej Kopański",
-      "url": "https://github.com/xidedix"
-    }
-  ],
-  "homepage": "https://coreui.io",
+  "homepage": "https://github.com/AndriiUhryn/coreui-react",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -67,7 +59,7 @@
     "url": "https://github.com/coreui/coreui-react.git"
   },
   "bugs": {
-    "url": "https://github.com/coreui/coreui-react/issues"
+    "url": "https://github.com/AndriiUhryn/coreui-react/issues"
   },
   "keywords": [
     "coreui",
