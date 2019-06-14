@@ -1,6 +1,6 @@
 {
   "name": "coreui_react_ssr",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "CoreUI React Bootstrap 4 components with ssr support",
   "license": "MIT",
   "author": {
