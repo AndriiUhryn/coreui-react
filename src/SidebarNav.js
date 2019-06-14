@@ -184,8 +184,7 @@ class AppSidebarNav extends Component {
 
     const navClasses = classNames(className, 'sidebar-nav');
 
-    // ToDo: find better rtl fix
-    const isRtl = getComputedStyle(document.documentElement).direction === 'rtl'
+    const isRtl = false;
 
     // sidebar-nav root
     return (
