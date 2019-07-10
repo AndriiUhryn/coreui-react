@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { sidebarCssClasses } from './Shared';
 import ClickOutHandler from 'react-onclickout'
+
+import LayoutHelper from './Shared/layout/layout';
+import { sidebarCssClasses } from './Shared';
 
 import './Shared/element-closest'
 
@@ -58,7 +60,7 @@ class AppSidebar extends Component {
   }
 
   isMinimized(minimized) {
-    //LayoutHelper.sidebarToggle(minimized)
+    LayoutHelper.sidebarToggle(minimized)
   }
 
   isOffCanvas(offCanvas) {
