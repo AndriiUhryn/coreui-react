@@ -137,7 +137,7 @@ class AppSidebarNav extends Component {
   // nav link
   navLink(item, key, classes) {
     const url = item.url || '';
-    const itemIcon = <i className={classes.icon} />
+    const itemIcon = item.iconComponent || <i className={classes.icon} />
     const itemBadge = this.navBadge(item.badge)
     const attributes = item.attributes || {}
     return (
