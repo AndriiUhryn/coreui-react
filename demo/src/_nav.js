@@ -1,19 +1,27 @@
 export default {
   items: [
     {
-      name: 'Dashboard',
-      url: '/dashboard',
+      name: 'Dashboard2',
+      url: '/dashboard2',
       icon: 'cui-speedometer icons',
-      badge: {
-        variant: 'info',
-        text: 'NEW'
-      }
+      top:true,
     },
     {
-      name: 'Disabled',
+      name: 'Entrepreneur check',
       url: '/dashboard',
+      icon: 'cui-speedometer icons',
+      active: true,
+    },
+    {
+      name: 'Dashboard12',
+      url: '/dashboard12',
+      icon: 'cui-speedometer icons',
+      bottom:true,
+    },
+    {
+      name: 'Disabled3',
+      url: '/dashboard3',
       icon: 'cui-ban icons',
-      attributes: { disabled: true },
     },
     {
       name: 'Download CoreUI',
