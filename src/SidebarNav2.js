@@ -166,7 +166,7 @@ class AppSidebarNav2 extends Component {
                         <RsNavLink href={url} className={classes.link} active {...attributes}>
                             {itemIcon}{item.name}{itemBadge}
                         </RsNavLink> :
-                        <NavLink to={url} className={classes.link} activeClassName="active"
+                        <NavLink to={url} className={`${classes.link} ${classes.item}`} activeClassName="active"
                                  onClick={this.hideMobile} {...attributes}>
                             {itemIcon}{item.name}{itemBadge}
                         </NavLink>
